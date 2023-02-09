@@ -77,7 +77,7 @@ const Table = () => {
                 {row.description}
               </td>
               <td className="border px-2 py-1 md:px-4 md:py-2">
-                <a href={row.url} className="text-blue-600 flex items-center">
+                <a href={row.url} target="_blank" className="text-blue-600 flex items-center">
                   Link
                   <OpenLinkIcon />
                 </a>
