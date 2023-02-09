@@ -134,4 +134,9 @@ export const allForms = [
     url: "https://www.instagram.com/p/CoXxrXGskXn/?igshid=YmMyMTA2M2Y%3D",
     category: "Barınma",
   },
+  {
+    description: "Kayseride yardım ulaştırabilecek merkezler ve depremzedeleri yerleştiği yerler",
+    url: "https://docs.google.com/spreadsheets/d/1ufc9n0AQNcjJHiy_QFj9Tzvk-cVQbvXNNweN7qBFKa8/edit#gid=653079699",
+    category: "Arama Kurtarma, Ulaşım, Barınma, Giyim, Gıda, Sağlık",
+  },
 ];
