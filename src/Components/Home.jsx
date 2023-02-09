@@ -9,7 +9,7 @@ const Home = () => {
           Yardım formlarına tek bir yerden erişin!
         </h1>
         <p className="md:text-lg max-w-2xl text-center">
-          Bu sayfada 2023 Şubat Kahramanmaras depremleri için organize edilmekte
+          Bu sayfada 2023 Şubat Kahramanmaraş depremleri için organize edilmekte
           olan tüm yardımlaşma sayfalarının linklerini yayınlamayı planlıyoruz.
         </p>
         <p className="md:text-lg max-w-2xl text-center">
