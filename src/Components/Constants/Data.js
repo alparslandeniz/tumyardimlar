@@ -79,4 +79,9 @@ export const allForms = [
     url: "https://evimevindir.com/",
     category: "Barınma",
   },
+  {
+    description: "Ahbap yardım platformu",
+    url: "https://ahbap.org/bagisci-ol",
+    category: "Arama Kurtarma, Ulaşım, Barınma, Giyim, Gıda, Sağlık",
+  },
 ];
