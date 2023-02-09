@@ -37,21 +37,6 @@ const Table = () => {
     handleSearch();
   }, [handleSearch, query]);
 
-  //get the screen size and set isMobile
-  const [isMobile, setIsMobile] = useState(false);
-  const handleResize = () => {
-    if (window.innerWidth < 768) {
-      setIsMobile(true);
-    } else {
-      setIsMobile(false);
-    }
-  };
-  useEffect(() => {
-    handleResize();
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
-
   return (
     <main
       className="flex flex-col justify-between space-y-6 items-center
@@ -61,7 +46,7 @@ const Table = () => {
       <table className="table-auto w-full text-left mx-auto">
         <thead>
           <tr className="bg-gray-800 text-white">
-            <th className={`px-4 py-2 md:w-[70%]  ${isMobile ? "hidden" : ""}`}>
+            <th className={"px-4 py-2 md:w-[70%]"}>
               Açıklama
             </th>
             <th className="px-4 py-2 md:w-[10%]">Link</th>
@@ -87,9 +72,7 @@ const Table = () => {
           {filteredData.map((row, index) => (
             <tr key={index} className="bg-slate-50 border-2">
               <td
-                className={`border px-2 py-1 md:px-4 md:py-2 ${
-                  isMobile ? "hidden" : ""
-                }`}
+                className={"border px-2 py-1 md:px-4 md:py-2"}
               >
                 {row.description}
               </td>
