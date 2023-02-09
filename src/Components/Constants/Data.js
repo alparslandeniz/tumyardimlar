@@ -69,4 +69,9 @@ export const allForms = [
     url: "https://survey123.arcgis.com/share/60b0edcfb75d40d9a77f8c4df6f6be0e?portalUrl=https://geo.bimtas.istanbul/geoportal",
     category: "Arama Kurtarma",
   },
+  {
+    description: "Vinç Talep Takip",
+    url: "https://docs.google.com/forms/d/e/1FAIpQLSeBB7c2gXQ9OUyMCWNB3sjzdNYX4nfcdSHB-IiRcZdlFvrNvQ/viewform",
+    category: "Arama Kurtarma",
+  },
 ];
