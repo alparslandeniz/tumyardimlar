@@ -74,4 +74,9 @@ export const allForms = [
     url: "https://docs.google.com/forms/d/e/1FAIpQLSeBB7c2gXQ9OUyMCWNB3sjzdNYX4nfcdSHB-IiRcZdlFvrNvQ/viewform",
     category: "Arama Kurtarma",
   },
+  {
+    description: "Evim Evindir Evini depremzedelere açanlar",
+    url: "https://evimevindir.com/",
+    category: "Barınma",
+  },
 ];
