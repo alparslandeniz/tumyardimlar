@@ -332,7 +332,7 @@ export const OpenLinkIcon = () => {
       viewBox="0 0 24 24"
       strokeWidth={1.5}
       stroke="currentColor"
-      className="w-7 h-7"
+      className="w-4 h-4 ml-1"
     >
       <path
         strokeLinecap="round"
