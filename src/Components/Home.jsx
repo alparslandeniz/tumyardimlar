@@ -10,7 +10,7 @@ const Home = () => {
         </h1>
         <p className="md:text-lg max-w-2xl text-center">
           Bu sayfada 2023 Şubat Kahramanmaras depremleri için organize edilmekte
-          olan tum yardımlaşma sayfalarının linklerini yayınlamayı planlıyoruz.
+          olan tüm yardımlaşma sayfalarının linklerini yayınlamayı planlıyoruz.
         </p>
         <p className="md:text-lg max-w-2xl text-center">
           {" "}
