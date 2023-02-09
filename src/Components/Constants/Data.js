@@ -54,4 +54,19 @@ export const allForms = [
     url: "https://www.depremyardim.org/",
     category: "Arama Kurtarma",
   },
+  {
+    description: "Ankara Deprem Yardım Merkezleri Güncel Ihtiyaç",
+    url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vSha8soQR5PWU5FjxLmmcMsHI4p6xUtd5V-oSQG_sd9dhP43rLxkNOceRxi59P1ClmNmTxe1mBtgPos/pubhtml?fbclid=PAAaar5erCmmYJeeNTbGOy7NoWS6-MvDLitbzgI1RF-jZqXQuIQhW4-fjiFs8",
+    category: "Giyim, Gıda, Sağlık",
+  },
+  {
+    description: "Deprem Yardım Scam Duyuru",
+    url: "https://docs.google.com/forms/d/e/1FAIpQLSc3NJZ3_rHkPMfuC2R6R8c_NQgJ8nDWONfSoCXWz1t7TWIcag/viewform",
+    category: "Arama Kurtarma, Ulaşım, Barınma, Giyim, Gıda, Sağlık",
+  },
+  {
+    description: "IBB enkaz altında bulunan ve acil yardım bekleyen depremzedeler için",
+    url: "https://survey123.arcgis.com/share/60b0edcfb75d40d9a77f8c4df6f6be0e?portalUrl=https://geo.bimtas.istanbul/geoportal",
+    category: "Arama Kurtarma",
+  },
 ];
