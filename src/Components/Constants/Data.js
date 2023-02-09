@@ -134,4 +134,29 @@ export const allForms = [
     url: "https://docs.google.com/spreadsheets/d/1ufc9n0AQNcjJHiy_QFj9Tzvk-cVQbvXNNweN7qBFKa8/edit#gid=653079699",
     category: "Arama Kurtarma, Ulaşım, Barınma, Giyim, Gıda, Sağlık",
   },
+  {
+    description: "Maraş Toplu Bilgileri, birçok telefon numarası ve adres içerir",
+    url: "https://www.instagram.com/p/CociuO-Itqw/?igshid=MWI4MTIyMDE=",
+    category: "Arama Kurtarma, Ulaşım, Barınma, Giyim, Gıda, Sağlık",
+  },
+  {
+    description: "Antep Toplu Bilgileri, birçok telefon numarası ve adres içerir",
+    url: "https://www.instagram.com/p/Cock9dqoTJE/?igshid=MWI4MTIyMDE=",
+    category: "Arama Kurtarma, Ulaşım, Barınma, Giyim, Gıda, Sağlık",
+  },
+  {
+    description: "Hatay Toplu Bilgileri, birçok telefon numarası ve adres içerir",
+    url: "https://www.instagram.com/p/CocneVtI3ej/?igshid=MWI4MTIyMDE=",
+    category: "Arama Kurtarma, Ulaşım, Barınma, Giyim, Gıda, Sağlık",
+  },
+  {
+    description: "Malatya Toplu Bilgileri, birçok telefon numarası ve adres içerir",
+    url: "https://www.instagram.com/p/Cocoh_9Ikr8/?igshid=MWI4MTIyMDE=",
+    category: "Arama Kurtarma, Ulaşım, Barınma, Giyim, Gıda, Sağlık",
+  },
+  {
+    description: "Urfa Toplu Bilgileri, birçok telefon numarası ve adres içerir",
+    url: "https://www.instagram.com/p/CocpmtfoyaH/?igshid=MWI4MTIyMDE=",
+    category: "Arama Kurtarma, Ulaşım, Barınma, Giyim, Gıda, Sağlık",
+  },
 ];
