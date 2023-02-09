@@ -15,10 +15,10 @@ const Table = () => {
   const [categoryFilter, setCategoryFilter] = useState(Categories[0]);
 
   const handleCategoryFilter = (str) => {
-    if (str == null) str = "Tüm";
+    if (str == null) str = "Kategori";
     setCategoryFilter(str);
 
-    if (str === "Tüm") setFilteredData(allForms);
+    if (str === "Kategori") setFilteredData(allForms);
     else setFilteredData(allForms.filter((row) => row.category.includes(str)));
   };
 

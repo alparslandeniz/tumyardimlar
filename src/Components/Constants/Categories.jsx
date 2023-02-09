@@ -1,5 +1,5 @@
 export const Categories = [
-    'Tüm',
+    'Kategori',
     'Enkaz',
     'Gıda',
     'İş Makinesi',
