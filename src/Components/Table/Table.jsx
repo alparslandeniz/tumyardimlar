@@ -61,8 +61,7 @@ const Table = () => {
       <table className="table-auto w-full text-left mx-auto min-h-[20rem]">
         <thead>
           <tr className="bg-gray-800 text-white">
-            <th className="px-4 py-2 md:w-[25%]">Form</th>
-            <th className={`px-4 py-2 md:w-[45%]  ${isMobile ? "hidden" : ""}`}>
+            <th className={`px-4 py-2 md:w-[70%]  ${isMobile ? "hidden" : ""}`}>
               Aciklama
             </th>
             <th className="px-4 py-2 md:w-[10%]">Link</th>
@@ -80,7 +79,6 @@ const Table = () => {
         <tbody className="">
           {filteredData.map((row, index) => (
             <tr key={index} className="bg-slate-50 border-2">
-              <td className="border px-2 py-1 md:px-4 md:py-2">{row.name}</td>
               <td
                 className={`border px-2 py-1 md:px-4 md:py-2 ${isMobile ? "hidden" : ""
                   }`}
