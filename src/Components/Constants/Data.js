@@ -15,6 +15,11 @@ export const allForms = [
     category: "Ulaşım",
   },
   {
+    description: "Elbistan Yardım Telefon Numaraları",
+    url: "https://docs.google.com/spreadsheets/d/175a_mTWpZnJiUy2Ur1CdhvUcqzGHvFQzOv9ED4-HoL8/edit?usp=sharing",
+    category: "Arama Kurtarma, Ulaşım, Barınma, Giyim, Gıda, Sağlık",
+  },
+  {
     description: "Yerimiz müsait: Depremzedeler için ücretsiz barınma sağlayanlar",
     url: "https://www.google.com/maps/@37.9637812,37.5643972,9z/data=!3m1!4b1!4m2!11m1!2s8l0kZBZNRV-s0FRQwYFgHg",
     category: "Barınma",
@@ -113,10 +118,5 @@ export const allForms = [
     description: "2023 depremi kayıp çocuklar bilgi paylaşımı",
     url: "https://eksisozluk.com/2023-depremi-kayip-cocuklar-bilgi-paylasimi--7571781",
     category: "Arama Kurtarma",
-  },
-  {
-    description: "Elbistan Yardım Telefon Numaraları",
-    url: "https://docs.google.com/spreadsheets/d/175a_mTWpZnJiUy2Ur1CdhvUcqzGHvFQzOv9ED4-HoL8/edit?usp=sharing",
-    category: "Arama Kurtarma, Ulaşım, Barınma, Giyim, Gıda, Sağlık",
   },
 ];
