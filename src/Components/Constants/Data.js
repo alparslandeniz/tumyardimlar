@@ -84,4 +84,9 @@ export const allForms = [
     url: "https://ahbap.org/bagisci-ol",
     category: "Arama Kurtarma, Ulaşım, Barınma, Giyim, Gıda, Sağlık",
   },
+  {
+    description: "Deprem Bölgelerinden Mersin Hastanesine Getirilen 700 Kişinin Listesi",
+    url: "https://mobile.twitter.com/delirdigece/status/1622929409622654977",
+    category: "Arama Kurtarma",
+  },
 ];
