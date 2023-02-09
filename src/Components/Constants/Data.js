@@ -89,4 +89,29 @@ export const allForms = [
     url: "https://mobile.twitter.com/delirdigece/status/1622929409622654977",
     category: "Arama Kurtarma",
   },
+  {
+    description: "Diyarbakır'da enkazda yaralı çıkarılanların isim listesi",
+    url: "https://www.guneydoguekspres.com/guncel/diyarbakir-da-enkazda-yarali-cikarilanlarin-isim-listesi-h31308.html",
+    category: "Arama Kurtarma",
+  },
+  {
+    description: "9 Şubat 2023 Enkazdan sağ çıkarılanların isimleri",
+    url: "https://www.cnnturk.com/turkiye/enkazdan-sag-cikarilanlarin-isimleri-9-subat-2023-son-dakika-deprem-gelismeleri-enkazdan-kurtulanlar-listesi",
+    category: "Arama Kurtarma",
+  },
+  {
+    description: "TC Malatya Valiliği Enkazdan Çıkarılan Vatandaşların Listesi",
+    url: "https://twitter.com/tcmalatyav/status/1458131137860100096",
+    category: "Arama Kurtarma",
+  },
+  {
+    description: "maraş depremi kayıp çocuklar",
+    url: "https://eksisozluk.com/maras-depremi-kayip-cocuklar--7571832",
+    category: "Arama Kurtarma",
+  },
+  {
+    description: "2023 depremi kayıp çocuklar bilgi paylaşımı",
+    url: "https://eksisozluk.com/2023-depremi-kayip-cocuklar-bilgi-paylasimi--7571781",
+    category: "Arama Kurtarma",
+  },
 ];
