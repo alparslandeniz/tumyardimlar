@@ -105,11 +105,6 @@ export const allForms = [
     category: "Arama Kurtarma",
   },
   {
-    description: "TC Malatya Valiliği Enkazdan Çıkarılan Vatandaşların Listesi",
-    url: "https://twitter.com/tcmalatyav/status/1458131137860100096",
-    category: "Arama Kurtarma",
-  },
-  {
     description: "maraş depremi kayıp çocuklar",
     url: "https://eksisozluk.com/maras-depremi-kayip-cocuklar--7571832",
     category: "Arama Kurtarma",
