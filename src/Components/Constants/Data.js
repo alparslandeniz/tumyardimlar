@@ -159,4 +159,54 @@ export const allForms = [
     url: "https://www.instagram.com/p/CocpmtfoyaH/?igshid=MWI4MTIyMDE=",
     category: "Arama Kurtarma, Ulaşım, Barınma, Giyim, Gıda, Sağlık",
   },
+  {
+    description: "Ahbap - Deprem Güvenli Bölgeler Haritası",
+    url: "https://www.google.com/maps/d/u/1/viewer?mid=1aQ0TJi4q_46XAZiSLggkbTjPzLGkTzQ&ll=37.06301742072887%2C37.28739713964324&z=9",
+    category: "Arama Kurtarma, Ulaşım, Barınma, Giyim, Gıda, Sağlık",
+  },
+  {
+    description: "Deprem Bölgesi Tahliye Talebi",
+    url: "https://deprem-tahliye.obilet.com/230373023552951",
+    category: "Ulaşım",
+  },
+  {
+    description: "Tahliye İletişim bilgileri. Lütfen sadece alınızı doldurun. Bize yardımcı olmalısınız.",
+    url: "https://docs.google.com/forms/d/e/1FAIpQLSexRv10UdcivLurgWXTUTInR8yZMifWJfZG-04cYicq-KWw6Q/viewform",
+    category: "Ulaşım",
+  },
+  {
+    description: "İstanbul İş Gücü Gereken Merkezler",
+    url: "https://docs.google.com/spreadsheets/u/0/d/1B0epkFl-4dF4FINjTSONWbHivOu702RBIWYnOM1gWkg/htmlview",
+    category: "Arama Kurtarma, Ulaşım, Barınma, Giyim, Gıda, Sağlık",
+  },
+  {
+    description: "mcdonalds Gıda Yardimlari",
+    url: "https://www.mcdonalds.com.tr/Dagitim_noktalari.pdf",
+    category: "Gıda",
+  },
+  {
+    description: "TTelekom Deprem Bölgelerimizdeki Ücretsiz Mobil Araç ve WiFi Noktalarımız",
+    url: "https://www.turktelekom.com.tr/tt-hakkimizda/duyurular/Sayfalar/deprem-bolgelerimizdeki-ucretsiz-wifi-noktalarimiz.aspx",
+    category: "Ulaşım",
+  },
+  {
+    description: "Garanti Bankasi",
+    url: "https://www.garantibbva.com.tr/content/dam/public-website/pdf/duyurular/deprem_bolgesi-subeler.pdf",
+    category: "",
+  },
+  {
+    description: "Deprem Bölgesindeki Sağlık Çalışanları için Önemli Bilgiler",
+    url: "https://depremdesaglik.com/",
+    category: "Sağlık",
+  },
+  {
+    description: "Cansuyu Dernegi Yardim Sayfasi",
+    url: "https://cansuyu.org.tr/bagis/",
+    category: "",
+  },
+  {
+    description: "IHH Dernegi Yardim Sayfasi",
+    url: "https://ihh.org.tr/bagis/turkiye-acil-yardim",
+    category: "",
+  },
 ];
