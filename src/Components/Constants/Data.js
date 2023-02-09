@@ -119,4 +119,19 @@ export const allForms = [
     url: "https://eksisozluk.com/2023-depremi-kayip-cocuklar-bilgi-paylasimi--7571781",
     category: "Arama Kurtarma",
   },
+  {
+    description: "Tüm Şehirlerdeki Anlık Yemek Yerleri, Sağlık Noktaları, Yetkili Numaraları, Anlık Yardım Konumları ",
+    url: "https://drive.google.com/drive/folders/11NOmLEHMiJmhagJQmbP5BXmohxyCatLp?fbclid=PAAabItgTNl3N81WtvqIDw7-2lSKOJFtwrv0TuSV4VuXbZf3TAs6PN6KwWgbc",
+    category: "Arama Kurtarma, Ulaşım, Barınma, Giyim, Gıda, Sağlık",
+  },
+  {
+    description: "Misafir Ol evini depremzedelere açanlar",
+    url: "https://misafirol.org/",
+    category: "Barınma",
+  },
+  {
+    description: "Alanya’da depremzedelere kucak açan otel listesi",
+    url: "https://www.instagram.com/p/CoXxrXGskXn/?igshid=YmMyMTA2M2Y%3D",
+    category: "Barınma",
+  },
 ];
