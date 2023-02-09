@@ -20,7 +20,7 @@ const Table = () => {
 
     if (str === "Tüm") setFilteredData(allForms);
     else setFilteredData(allForms.filter((row) => row.category.includes(str)));
-  }
+  };
 
   const handleSearch = useCallback(() => {
     setCategoryFilter(Categories[0]);
@@ -58,7 +58,7 @@ const Table = () => {
     w-full max-w-5xl py-10 md:px-2"
     >
       <SearchBox setQuery={setQuery} />
-      <table className="table-auto w-full text-left mx-auto min-h-[20rem]">
+      <table className="table-auto w-full text-left mx-auto">
         <thead>
           <tr className="bg-gray-800 text-white">
             <th className={`px-4 py-2 md:w-[70%]  ${isMobile ? "hidden" : ""}`}>
@@ -67,10 +67,17 @@ const Table = () => {
             <th className="px-4 py-2 md:w-[10%]">Link</th>
             <th className="px-4 py-2 md:w-[20%]">
               <div className="flex">
-                Kategori:
-                <select className="text-black" id="category-dropdown" onChange={e => handleCategoryFilter(e.target.value)} value={categoryFilter}>
-                  {Categories.map(o => (
-                    <option key={o} value={o}>{o}</option>))}
+                <select
+                  className="text-black w-full bg-gray-100 rounded-lg px-1 font-semibold"
+                  id="category-dropdown"
+                  onChange={(e) => handleCategoryFilter(e.target.value)}
+                  value={categoryFilter}
+                >
+                  {Categories.map((o) => (
+                    <option key={o} value={o}>
+                      {o}
+                    </option>
+                  ))}
                 </select>
               </div>
             </th>
@@ -80,8 +87,9 @@ const Table = () => {
           {filteredData.map((row, index) => (
             <tr key={index} className="bg-slate-50 border-2">
               <td
-                className={`border px-2 py-1 md:px-4 md:py-2 ${isMobile ? "hidden" : ""
-                  }`}
+                className={`border px-2 py-1 md:px-4 md:py-2 ${
+                  isMobile ? "hidden" : ""
+                }`}
               >
                 {row.description}
               </td>
