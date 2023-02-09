@@ -114,4 +114,9 @@ export const allForms = [
     url: "https://eksisozluk.com/2023-depremi-kayip-cocuklar-bilgi-paylasimi--7571781",
     category: "Arama Kurtarma",
   },
+  {
+    description: "Elbistan Yardım Telefon Numaraları",
+    url: "https://docs.google.com/spreadsheets/d/175a_mTWpZnJiUy2Ur1CdhvUcqzGHvFQzOv9ED4-HoL8/edit?usp=sharing",
+    category: "Arama Kurtarma, Ulaşım, Barınma, Giyim, Gıda, Sağlık",
+  },
 ];
