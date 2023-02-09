@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/tumyardimlar/static/css/main.4b8dcabc.css",
-    "main.js": "/tumyardimlar/static/js/main.cb6e206e.js",
+    "main.css": "/tumyardimlar/static/css/main.40bfaa9f.css",
+    "main.js": "/tumyardimlar/static/js/main.1d637754.js",
     "static/js/787.83f460cf.chunk.js": "/tumyardimlar/static/js/787.83f460cf.chunk.js",
     "index.html": "/tumyardimlar/index.html",
-    "main.4b8dcabc.css.map": "/tumyardimlar/static/css/main.4b8dcabc.css.map",
-    "main.cb6e206e.js.map": "/tumyardimlar/static/js/main.cb6e206e.js.map",
+    "main.40bfaa9f.css.map": "/tumyardimlar/static/css/main.40bfaa9f.css.map",
+    "main.1d637754.js.map": "/tumyardimlar/static/js/main.1d637754.js.map",
     "787.83f460cf.chunk.js.map": "/tumyardimlar/static/js/787.83f460cf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b8dcabc.css",
-    "static/js/main.cb6e206e.js"
+    "static/css/main.40bfaa9f.css",
+    "static/js/main.1d637754.js"
   ]
 }
