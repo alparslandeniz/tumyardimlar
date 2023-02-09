@@ -50,7 +50,7 @@ export const allForms = [
     category: "Gıda, Barınma",
   },
   {
-    description: "Yardım Kampanya Toplandığı Yerler ve Konaklama/Erzak Tesisleri",
+    description: "depremyardim.org Depremzedeler için arama kurtarma yardim talepleri",
     url: "https://www.depremyardim.org/",
     category: "Arama Kurtarma",
   },
