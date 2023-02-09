@@ -1,8 +1,9 @@
 import React, { useEffect, useState, useCallback } from "react";
 import SearchBox from "./SearchBox";
 
-import { allForms } from "./Data";
+import { allForms } from "../Constants/Data";
 import { OpenLinkIcon } from "../UI/Icons";
+import { Categories } from "../Constants/Categories";
 
 const Table = () => {
   const [query, setQuery] = useState("");
@@ -10,6 +11,16 @@ const Table = () => {
   // const [dataExist, setDataExist] = useState(true);
 
   const [filteredData, setFilteredData] = useState(allForms);
+
+  const [categoryFilter, setCategoryFilter] = useState(Categories[0]);
+
+  const handleCategoryFilter = (str) => {
+    if (str == null) str = "Tum";
+    setCategoryFilter(str);
+
+    if (str === "Tum") setFilteredData(allForms);
+    else setFilteredData(allForms.filter((row) => row.category.includes(str)));
+  }
 
   const handleSearch = useCallback(() => {
     setFilteredData(
@@ -54,7 +65,15 @@ const Table = () => {
               Aciklama
             </th>
             <th className="px-4 py-2 md:w-[10%]">Link</th>
-            <th className="px-4 py-2 md:w-[20%]">Kategori</th>
+            <th className="px-4 py-2 md:w-[20%]">
+              <div className="flex">
+                Kategori:
+                <select className="text-black" id="category-dropdown" onChange={e => handleCategoryFilter(e.target.value)} value={categoryFilter}>
+                  {Categories.map(o => (
+                    <option key={o} value={o}>{o}</option>))}
+                </select>
+              </div>
+            </th>
           </tr>
         </thead>
         <tbody className="">
@@ -62,9 +81,8 @@ const Table = () => {
             <tr key={index} className="bg-slate-50 border-2">
               <td className="border px-2 py-1 md:px-4 md:py-2">{row.name}</td>
               <td
-                className={`border px-2 py-1 md:px-4 md:py-2 ${
-                  isMobile ? "hidden" : ""
-                }`}
+                className={`border px-2 py-1 md:px-4 md:py-2 ${isMobile ? "hidden" : ""
+                  }`}
               >
                 {row.description}
               </td>
