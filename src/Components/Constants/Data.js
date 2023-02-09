@@ -35,7 +35,7 @@ export const allForms = [
     category: "Arama Kurtarma, Ulaşım, Barınma, Giyim, Gıda, Sağlık",
   },
   {
-    description: "afetbilgi.com Genel yardim bilgileri",
+    description: "afetbilgi.com Genel yardım bilgileri",
     url: "https://afetbilgi.com/",
     category: "Arama Kurtarma, Ulaşım, Barınma, Giyim, Gıda, Sağlık",
   },
@@ -45,8 +45,13 @@ export const allForms = [
     category: "Arama Kurtarma",
   },
   {
-    description: "",
-    url: "",
-    category: "",
+    description: "Yardım Kampanya Toplandığı Yerler ve Konaklama/Erzak Tesisleri",
+    url: "https://deprem.cloud/",
+    category: "Gıda, Barınma",
+  },
+  {
+    description: "Yardım Kampanya Toplandığı Yerler ve Konaklama/Erzak Tesisleri",
+    url: "https://www.depremyardim.org/",
+    category: "Arama Kurtarma",
   },
 ];
