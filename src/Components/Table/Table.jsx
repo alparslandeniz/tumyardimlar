@@ -23,6 +23,7 @@ const Table = () => {
   }
 
   const handleSearch = useCallback(() => {
+    setCategoryFilter(Categories[0]);
     setFilteredData(
       allForms.filter((row) =>
         Object.values(row).some((value) =>
