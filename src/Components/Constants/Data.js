@@ -30,19 +30,19 @@ export const allForms = [
     category: "Barınma",
   },
   {
-    description: "",
-    url: "",
-    category: "",
+    description: "depremyardim.com Yardım talep et ve yardımları görüntüle",
+    url: "https://depremyardim.com/",
+    category: "Arama Kurtarma, Ulaşım, Barınma, Giyim, Gıda, Sağlık",
   },
   {
-    description: "",
-    url: "",
-    category: "",
+    description: "afetbilgi.com Genel yardim bilgileri",
+    url: "https://afetbilgi.com/",
+    category: "Arama Kurtarma, Ulaşım, Barınma, Giyim, Gıda, Sağlık",
   },
   {
-    description: "",
-    url: "",
-    category: "",
+    description: "beniyiyim.com ",
+    url: "https://beniyiyim.com/",
+    category: "Arama Kurtarma",
   },
   {
     description: "",
