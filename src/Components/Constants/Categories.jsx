@@ -1,6 +1,6 @@
 export const Categories = [
     'Kategori',
-    'Enkaz',
+    'Arama Kurtarma',
     'Gıda',
     'İş Makinesi',
     'Barınma',
