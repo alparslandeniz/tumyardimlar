@@ -15,10 +15,10 @@ const Table = () => {
   const [categoryFilter, setCategoryFilter] = useState(Categories[0]);
 
   const handleCategoryFilter = (str) => {
-    if (str == null) str = "Tum";
+    if (str == null) str = "Tüm";
     setCategoryFilter(str);
 
-    if (str === "Tum") setFilteredData(allForms);
+    if (str === "Tüm") setFilteredData(allForms);
     else setFilteredData(allForms.filter((row) => row.category.includes(str)));
   }
 
@@ -62,7 +62,7 @@ const Table = () => {
         <thead>
           <tr className="bg-gray-800 text-white">
             <th className={`px-4 py-2 md:w-[70%]  ${isMobile ? "hidden" : ""}`}>
-              Aciklama
+              Açıklama
             </th>
             <th className="px-4 py-2 md:w-[10%]">Link</th>
             <th className="px-4 py-2 md:w-[20%]">
