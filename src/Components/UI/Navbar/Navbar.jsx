@@ -13,7 +13,12 @@ const Navbar = () => {
     <nav className="items-center w-[100%] rounded-b bg-slate-100 shadow-md fixed z-20">
       <div className="flex justify-between items-center mx-auto max-w-7xl py-1 px-2 md:px-8 sm:px-auto max-h-[3rem]">
         <Logo />
-        <div name="menu svg" className="lg:hidden" onClick={toggleMenuHandler}>
+        <div
+          name="menu svg"
+          className="lg:hidden hidden"
+          //delete hidden class to show the svg
+          onClick={toggleMenuHandler}
+        >
           {!isMenuOpen ? <HamburgerIcon /> : <CloseIcon />}
         </div>
         <div
@@ -22,7 +27,8 @@ const Navbar = () => {
         >
           <a
             href="/home"
-            className="text-xl hover:text-gray-400 transition duration-100 py-1"
+            //delete hidden class to show the link
+            className="text-xl hover:text-gray-400 transition duration-100 py-1 hidden"
           >
             Ana Sayfa
           </a>
