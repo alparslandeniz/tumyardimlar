@@ -5,7 +5,7 @@ const Logo = () => {
   return (
     <Fragment>
       <a
-        href="/home"
+        href="/"
         className="flex items-center text-center justify-start 
         space-x-3 py-1 hover:text-blue-400 transition duration-150"
       >

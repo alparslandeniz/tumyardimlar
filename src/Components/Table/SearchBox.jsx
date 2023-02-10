@@ -8,7 +8,7 @@ function SearchBox({ setQuery }) {
 
   return (
     <div className="flex flex-col space-y-2 items-center w-full px-2">
-      <h1 className="text-2xl font-semibold py-2">Arama Yap</h1>
+      <h1 className="text-3xl font-semibold py-2">Arama Yap</h1>
       <div className="relative min-w-64 w-full max-w-2xl z-1">
         <input
           type="text"
