@@ -229,4 +229,9 @@ export const allForms = [
     url: "https://t.me/ucretsiz_konaklama_bolgeleri",
     category: "Barınma",
   },
+  {
+    description: "Afet Navigasyon Sistemi",
+    url: "https://egemenertugrul.github.io/afet_navigasyon/?fbclid=PAAaZhptn_WjLCkaD7H5ZoO6He29yCjBhdDDnY3exXNDYI7lzMOA1ONCmUCx0",
+    category: "Arama Kurtarma",
+  },
 ];
