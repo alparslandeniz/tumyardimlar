@@ -289,4 +289,9 @@ export const allForms = [
     url: "https://evimmusait.com/",
     category: "Barınma",
   },
+  {
+    description: "Glutensiz besin ve alerjen bebek maması iletişim numaraları",
+    url: "https://drive.google.com/file/d/1jg1KNkCj465s5egq_APY6Na8LTTmPL_K/view?usp=sharing",
+    category: "Gıda",
+  },
 ];
