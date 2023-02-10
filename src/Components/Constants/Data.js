@@ -294,4 +294,14 @@ export const allForms = [
     url: "https://drive.google.com/file/d/1jg1KNkCj465s5egq_APY6Na8LTTmPL_K/view?usp=sharing",
     category: "Gıda",
   },
+  {
+    description: "Hayvanlar için barınma",
+    url: "https://www.kurtaranev.org/afet",
+    category: "Barınma",
+  },
+  {
+    description: "Tüm şehirler için toplu bilgiler birçok telefon numarası ve adres içerir",
+    url: "https://www.kurtaranev.org/afet",
+    category: "Arama Kurtarma, Ulaşım, Barınma, Giyim, Gıda, Sağlık",
+  },
 ];
