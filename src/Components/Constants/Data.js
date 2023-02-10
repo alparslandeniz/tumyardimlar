@@ -234,4 +234,59 @@ export const allForms = [
     url: "https://egemenertugrul.github.io/afet_navigasyon/?fbclid=PAAaZhptn_WjLCkaD7H5ZoO6He29yCjBhdDDnY3exXNDYI7lzMOA1ONCmUCx0",
     category: "Arama Kurtarma",
   },
+  {
+    description: "Hatay Enkaz Bildirimi",
+    url: "https://chat.whatsapp.com/HSQPIYSjGjdF3nw8cDh34D",
+    category: "Arama Kurtarma",
+  },
+  {
+    description: "Urfa Deprem İletişim",
+    url: "https://chat.whatsapp.com/JMmhZzFKq9SCTTVKqogq2V",
+    category: "Genel",
+  },
+  {
+    description: "OSMANİYE YARDIM/ENKAZ 🆘",
+    url: "https://chat.whatsapp.com/DWJ4dgKXGXmAbkl3bOmBIv",
+    category: "Arama Kurtarma",
+  },
+  {
+    description: "Gaziantep Deprem-Konum Paylaşımı",
+    url: "https://chat.whatsapp.com/BTI9zBJ3BKU0NBYmsodRc2",
+    category: "Arama Kurtarma",
+  },
+  {
+    description: "ADYMN- OKUMADAN MESAJ İLETMEYİN VİNÇ BULUNDU!!!!",
+    url: "https://chat.whatsapp.com/DINQrnr7LARGWmUPGGjMlT",
+    category: "Arama Kurtarma",
+  },
+  {
+    description: "Adana Deprem Yardımlaşma",
+    url: "https://chat.whatsapp.com/FZNUjyAOgOn8hFptBmW8S9",
+    category: "Genel",
+  },
+  {
+    description: "Diyarbakır YTÜ ÖTK Deprem",
+    url: "https://chat.whatsapp.com/IU6TDdPhwOx768xgQ1o4nR",
+    category: "Genel",
+  },
+  {
+    description: "YTÜ ÖTK DEPREM MALATYA YARDIM",
+    url: "https://chat.whatsapp.com/FYs5hu1BQJbFS90B5YyajB",
+    category: "Genel",
+  },
+  {
+    description: "YTÜ ÖTK Deprem Kahramanmaraş",
+    url: "https://chat.whatsapp.com/JbfYMdtb0W1ETRt9k7wVhd",
+    category: "Genel",
+  },
+  {
+    description: "Afetzede Hak Sahipliği Başvurusu Sorgulama",
+    url: "https://www.turkiye.gov.tr/afet-ve-acil-durum-yonetimi-afetzede-hak-sahipligi-basvurusu-sorgulama",
+    category: "Genel",
+  },
+  {
+    description: "Evim Müsait",
+    url: "https://evimmusait.com/",
+    category: "Barınma",
+  },
 ];
