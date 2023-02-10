@@ -5,5 +5,6 @@ export const Categories = [
     'Gıda',
     'Giyim',
     'Sağlık',
-    'Ulaşım', 
+    'Ulaşım',
+    'Genel' 
 ];

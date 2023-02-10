@@ -180,7 +180,7 @@ export const allForms = [
     category: "Arama Kurtarma, Ulaşım, Barınma, Giyim, Gıda, Sağlık",
   },
   {
-    description: "mcdonalds Gıda Yardimlari",
+    description: "McDonalds Gıda Yardımları",
     url: "https://www.mcdonalds.com.tr/Dagitim_noktalari.pdf",
     category: "Gıda",
   },
@@ -190,9 +190,9 @@ export const allForms = [
     category: "Ulaşım",
   },
   {
-    description: "Garanti Bankasi",
+    description: "Garanti Bankası Hzimete Açık Şubeler",
     url: "https://www.garantibbva.com.tr/content/dam/public-website/pdf/duyurular/deprem_bolgesi-subeler.pdf",
-    category: "",
+    category: "Genel",
   },
   {
     description: "Deprem Bölgesindeki Sağlık Çalışanları için Önemli Bilgiler",
@@ -200,24 +200,24 @@ export const allForms = [
     category: "Sağlık",
   },
   {
-    description: "Cansuyu Dernegi Yardim Sayfasi",
+    description: "Cansuyu Derneği Yardım Sayfası",
     url: "https://cansuyu.org.tr/bagis/",
-    category: "",
+    category: "Genel",
   },
   {
-    description: "IHH Dernegi Yardim Sayfasi",
+    description: "İHH Derneği Yardım Sayfası",
     url: "https://ihh.org.tr/bagis/turkiye-acil-yardim",
-    category: "",
+    category: "Genel",
   },
   {
     description: "Telegram Tüm yardım ve imdat çağrıları bu kanalda",
-    url: "t.me/yardim_istekleri",
-    category: "",
+    url: "https://t.me/yardim_istekleri",
+    category: "Arama Kurtarma, Ulaşım, Barınma, Giyim, Gıda, Sağlık",
   },
   {
     description: "Telegram Kepçe, vinç ve iş makinası ihtiyacı olanlar için kanal",
-    url: "t.me/gonullu_operatorler",
-    category: "",
+    url: "https://t.me/gonullu_operatorler",
+    category: "Arama Kurtarma",
   },
   {
     description: "Telegram Gıda erzak sıkıntısı çekenler için kanal.",
