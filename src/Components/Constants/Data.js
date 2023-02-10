@@ -209,4 +209,24 @@ export const allForms = [
     url: "https://ihh.org.tr/bagis/turkiye-acil-yardim",
     category: "",
   },
+  {
+    description: "Telegram Tüm yardım ve imdat çağrıları bu kanalda",
+    url: "t.me/yardim_istekleri",
+    category: "",
+  },
+  {
+    description: "Telegram Kepçe, vinç ve iş makinası ihtiyacı olanlar için kanal",
+    url: "t.me/gonullu_operatorler",
+    category: "",
+  },
+  {
+    description: "Telegram Gıda erzak sıkıntısı çekenler için kanal.",
+    url: "https://t.me/yardim_malzemeleri_dagitimyeri",
+    category: "Gıda",
+  },
+  {
+    description: "Telegram Konaklama sıkıntısı çekenler için kanal",
+    url: "https://t.me/ucretsiz_konaklama_bolgeleri",
+    category: "Barınma",
+  },
 ];
