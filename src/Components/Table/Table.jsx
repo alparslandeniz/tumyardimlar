@@ -24,8 +24,9 @@ const Table = () => {
     if (str == null) str = "Kategori";
     setCategoryFilter(str);
 
-    if (str === "Kategori") setFilteredData(allForms);
-    else setFilteredData(allForms.filter((row) => row.category.includes(str)));
+    if (str === "Kategori") setFilteredData(reversedData);
+    else
+      setFilteredData(reversedData.filter((row) => row.category.includes(str)));
   };
 
   const handleSearch = useCallback(() => {
