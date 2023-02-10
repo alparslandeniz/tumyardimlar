@@ -41,7 +41,7 @@ const Table = () => {
     w-full max-w-5xl py-5 md:px-2"
     >
       <SearchBox setQuery={setQuery} />
-      <div className="min-h-[30rem] w-full">
+      <div className="min-h-[42rem] w-full">
         <table className="table-auto min-w-full min-h-full text-left mx-auto">
           <thead>
             <tr className="bg-gray-800 text-white">
