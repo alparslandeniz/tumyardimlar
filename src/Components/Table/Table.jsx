@@ -8,7 +8,15 @@ import { Categories } from "../Constants/Categories";
 const Table = () => {
   const [query, setQuery] = useState("");
 
-  const [filteredData, setFilteredData] = useState(allForms);
+  const [reversedData, setReversedData] = useState([]);
+
+  //reverse the data
+  useEffect(() => {
+    const reverseForms = [...allForms].reverse();
+    setReversedData(reverseForms);
+  }, []);
+
+  const [filteredData, setFilteredData] = useState(reversedData);
 
   const [categoryFilter, setCategoryFilter] = useState(Categories[0]);
 
@@ -23,13 +31,13 @@ const Table = () => {
   const handleSearch = useCallback(() => {
     setCategoryFilter(Categories[0]);
     setFilteredData(
-      allForms.filter((row) =>
+      reversedData.filter((row) =>
         Object.values(row).some((value) =>
           value.toString().toLowerCase().includes(query)
         )
       )
     );
-  }, [query]);
+  }, [query, reversedData]);
 
   useEffect(() => {
     handleSearch();
