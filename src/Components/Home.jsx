@@ -6,7 +6,7 @@ const Home = () => {
     <section className="min-h-[100vh] flex flex-col justify-center items-center max-w-7xl mx-auto pt-[4rem]">
       <div className="flex flex-col justify-around space-y-2 items-center text-center px-2">
         <h1 className="text-2xl font-bold px-2 py-3">
-          Yardım formlarına tek bir yerden erişin!
+          Yardım sitelerine tek bir yerden erişin!
         </h1>
         <p className="md:text-lg max-w-2xl text-center">
           Bu sayfada 6 Şubat 2023'de ülkemizde meydana gelen depremlerden etkilenenler için organize edilmekte
