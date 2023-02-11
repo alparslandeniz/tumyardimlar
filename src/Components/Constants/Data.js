@@ -324,4 +324,29 @@ export const allForms = [
     url: "https://afetharita.com/tr",
     category: "Arama Kurtarma",
   },
+  {
+    description: "Yakınımı Bul | Hastane Listesi",
+    url: "https://yakinimibul.net/",
+    category: "Arama Kurtarma",
+  },
+  {
+    description: "Deprem İhtiyaç",
+    url: "https://depremihtiyac.com/",
+    category: "Ulaşım, Barınma, Giyim, Gıda",
+  },
+  {
+    description: "Güvenilir Ücretsiz VPN",
+    url: "https://1.1.1.1/",
+    category: "Genel",
+  },
+  {
+    description: "Deprem Güvenli Yerler ve Oteller",
+    url: "https://kalacakyer.org/",
+    category: "Barınma",
+  },
+  {
+    description: "Afetzedelere Destek Platformu",
+    url: "https://www.yanindayiz.biz/",
+    category: "Genel",
+  },
 ];
