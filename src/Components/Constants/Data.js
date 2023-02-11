@@ -349,4 +349,24 @@ export const allForms = [
     url: "https://www.yanindayiz.biz/",
     category: "Genel",
   },
+  {
+    description: "WHATSAPP Hatay İhtiyaç - Gıda Noktaları",
+    url: "https://chat.whatsapp.com/Iyg5404Iklr2bbAqFmAD4Z",
+    category: "Genel",
+  },
+  {
+    description: "HATAY İHTİYAÇ NOKTALARI",
+    url: "https://docs.google.com/spreadsheets/d/19FzFNVV4ofusg1k73BGJOmf6-6R7vGqEGv6L7EyCLOE/edit?usp=drivesdk",
+    category: "Genel",
+  },
+  {
+    description: "HATAY YARDIM DAĞITIM NOKTALARI",
+    url: "https://docs.google.com/spreadsheets/d/10vhtscRTmS7rmGCClXU4TKYrbMmjDp5mOmrK6mrXAFM/edit#gid=0",
+    category: "Genel",
+  },
+  {
+    description: "Refakatçisi Olmayan Çocukların Teslim Edileceği Yer ve İrtibat Numaraları",
+    url: "https://www.gzt.com/jurnalist/refakatcisi-olmayan-cocuklarin-teslim-edilecegi-yer-ve-irtibat-numaralari-paylasildi-3711907",
+    category: "Barınma, Arama Kurtarma",
+  },
 ];
