@@ -304,4 +304,24 @@ export const allForms = [
     url: "https://www.kurtaranev.org/afet",
     category: "Arama Kurtarma, Ulaşım, Barınma, Giyim, Gıda, Sağlık",
   },
+  {
+    description: "Enkaz Dinleme Uygulaması",
+    url: "https://web.itu.edu.tr/sariero/dinleme.html",
+    category: "Arama Kurtarma",
+  },
+  {
+    description: "Afet Müdahale Haritası ve Deprem Hasar Raporları",
+    url: "https://afetharitasi.org/",
+    category: "Barınma",
+  },
+  {
+    description: "Şeflere Gıda Yardımı",
+    url: "https://afetharitasi.org/",
+    category: "Gıda",
+  },
+  {
+    description: "Afet Haritası",
+    url: "https://afetharita.com/tr",
+    category: "Arama Kurtarma",
+  },
 ];
