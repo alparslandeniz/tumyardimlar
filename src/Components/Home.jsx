@@ -1,5 +1,6 @@
 import React from "react";
 import Table from "./Table/Table";
+import CommunityLogo from "./CommunityLogo";
 
 const Home = () => {
   return (
@@ -9,8 +10,9 @@ const Home = () => {
           Yardım formlarına tek bir yerden erişin!
         </h1>
         <p className="md:text-lg max-w-2xl text-center">
-          Bu sayfada 6 Şubat 2023'de ülkemizde meydana gelen depremlerden etkilenenler için organize edilmekte
-          olan tüm yardımlaşma linklerini bir araya getiriyoruz.
+          Bu sayfada 6 Şubat 2023'de ülkemizde meydana gelen depremlerden
+          etkilenenler için organize edilmekte olan tüm yardımlaşma linklerini
+          bir araya getiriyoruz.
         </p>
         <p className="md:text-lg max-w-2xl text-center">
           {" "}
@@ -27,6 +29,7 @@ const Home = () => {
         </p>
       </div>
       <Table />
+      <CommunityLogo />
     </section>
   );
 };
