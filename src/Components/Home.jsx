@@ -14,14 +14,14 @@ const Home = () => {
         </p>
         <p className="md:text-lg max-w-2xl text-center">
           {" "}
-          Lütfen bilginiz dahilindeki linkleri ve siteleri{" "}
+          Lütfen bildiğiniz linkleri{" "}
           <a
             href="https://forms.gle/sEogKJQv3C19Dypn8"
             className="text-blue-500 font-semibold underline underline-offset-4 "
           >
             BU FORMU KULLANARAK
           </a>{" "}
-          bizlere bildirerek çalışmamıza destek olunuz. Lütfen bu adresi
+          bizlere bildirerek çalışmamıza destek olunuz. Sitemizi
           dostlarınıza duyurmayı ihmal etmeyiniz. Listemizde yayınladığımız linkler bizlere ait olmayıp sizlerin katkılarıyla eklenmektedir.
         </p>
       </div>
