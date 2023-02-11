@@ -16,7 +16,7 @@ const Home = () => {
           {" "}
           Lütfen bildiğiniz linkleri{" "}
           <a
-            href="https://forms.gle/sEogKJQv3C19Dypn8"
+            href="https://forms.gle/sEogKJQv3C19Dypn8" target="_blank"
             className="text-blue-500 font-semibold underline underline-offset-4 "
           >
             BU FORMU KULLANARAK
