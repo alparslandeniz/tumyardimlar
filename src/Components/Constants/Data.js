@@ -355,12 +355,12 @@ export const allForms = [
     category: "Genel",
   },
   {
-    description: "HATAY İHTİYAÇ NOKTALARI",
+    description: "Hatay İhtiyaç Noktaları",
     url: "https://docs.google.com/spreadsheets/d/19FzFNVV4ofusg1k73BGJOmf6-6R7vGqEGv6L7EyCLOE/edit?usp=drivesdk",
     category: "Genel",
   },
   {
-    description: "HATAY YARDIM DAĞITIM NOKTALARI",
+    description: "Hatay Yardım Dağıtım Noktaları",
     url: "https://docs.google.com/spreadsheets/d/10vhtscRTmS7rmGCClXU4TKYrbMmjDp5mOmrK6mrXAFM/edit#gid=0",
     category: "Genel",
   },
@@ -368,5 +368,25 @@ export const allForms = [
     description: "Refakatçisi Olmayan Çocukların Teslim Edileceği Yer ve İrtibat Numaraları",
     url: "https://www.gzt.com/jurnalist/refakatcisi-olmayan-cocuklarin-teslim-edilecegi-yer-ve-irtibat-numaralari-paylasildi-3711907",
     category: "Barınma, Arama Kurtarma",
+  },
+  {
+    description: "Barınma İhtiyacı Olanlar ile Barınma Konusunda Yardımcı Olabilecek Kişileri Buluşturan Platform",
+    url: "https://zorgundostu.com/",
+    category: "Barınma",
+  },
+  {
+    description: "Arama Kurtarma Amaçlı Tweet'leri Anlık Derleyen Websitesi",
+    url: "https://stream.epctex.com/",
+    category: "Arama Kurtarma",
+  },
+  {
+    description: "Barınma Desteği Talep Formu",
+    url: "https://docs.google.com/forms/d/e/1FAIpQLScPoZ2pNvtMDYKF0Ol3CxW2vlk3Mc0gBLHjMUGvtwWF0he24A/viewform",
+    category: "Barınma",
+  },
+  {
+    description: "Gıda Dağıtım Noktaları, İhtiyaç Noktaları, Barınma ve Toplanma Noktaları Haritası",
+    url: "https://deprem.basarsoft.com.tr",
+    category: "Barınma, Gıda",
   },
 ];
