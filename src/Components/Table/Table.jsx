@@ -2,7 +2,6 @@ import React, { useEffect, useState, useCallback } from "react";
 import SearchBox from "./SearchBox";
 
 import { allForms } from "../Constants/Data";
-import { OpenLinkIcon } from "../UI/Icons";
 import { Categories } from "../Constants/Categories";
 
 const Table = () => {
@@ -54,9 +53,8 @@ const Table = () => {
         <table className="table-auto min-w-full min-h-full text-left mx-auto">
           <thead>
             <tr className="bg-gray-800 text-white">
-              <th className={"px-4 py-2 w-[50%] md:w-[65%]"}>Açıklama</th>
-              <th className="px-4 py-2 w-[15%] md:w-[10%]">Link</th>
-              <th className="px-4 py-2 w-[35%] md:w-[25%]">
+              <th className={"px-4 py-2 w-[60%] md:w-[65%]"}>Açıklama</th>
+              <th className="px-4 py-2 w-[40%] md:w-[35%]">
                 <div className="flex">
                   <select
                     className="text-slate-800 py-1 w-full bg-gray-100 rounded-lg px-1 font-semibold"
@@ -78,17 +76,13 @@ const Table = () => {
             {filteredData.map((row, index) => (
               <tr key={index} className="bg-slate-50 border-2">
                 <td className={"border px-2 py-1 md:px-4 md:py-2"}>
-                  {row.description}
-                </td>
-                <td className="border px-2 py-1 md:px-4 md:py-2">
                   <a
                     href={row.url}
                     target="_blank"
                     rel="noreferrer"
                     className="text-blue-600 flex items-center"
                   >
-                    Link
-                    <OpenLinkIcon />
+                    {row.description}
                   </a>
                 </td>
                 <td className="border px-2 py-1 md:px-4 md:py-2">
