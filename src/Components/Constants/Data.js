@@ -389,4 +389,9 @@ export const allForms = [
     url: "https://deprem.basarsoft.com.tr",
     category: "Barınma, Gıda",
   },
+  {
+    description: "AYA - Açık Yazılım Ağı Proje Ekipleri Güncel Durumları",
+    url: "https://forms.gle/qu15eSVdQkzZ1BcG9",
+    category: "Genel",
+  },
 ];
