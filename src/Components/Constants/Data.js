@@ -449,4 +449,24 @@ export const allForms = [
     url: "https://www.tpfund.org/",
     category: "Arama Kurtarma, Ulaşım, Barınma, Giyim, Gıda, Sağlık",
   },
+  {
+    description: "Maraş Tahliye Dayanışma Whatsapp Grubu",
+    url: "https://chat.whatsapp.com/HujGRwxT1xwHGtjFADbyrm",
+    category: "Arama Kurtarma, Ulaşım, Barınma, Giyim, Gıda, Sağlık",
+  },
+  {
+    description: "Deprem Bölgesi Aktif Hastane Listesi",
+    url: "https://docs.google.com/spreadsheets/d/1a785CPjKg0cVND2rl2dGnwb7q_1mPJhwWJ8UODCcttw/edit?usp=sharing",
+    category: "Sağlık",
+  },
+  {
+    description: "İşler Kitabevi AFET Bölgesi Kırtasiye Destek Başvurusu",
+    url: "https://www.isler.com.tr/isler-afet-destek",
+    category: "Eğitim",
+  },
+  {
+    description: "Sahra Hastaneleri Listesi",
+    url: "https://www.instagram.com/p/Cofft4rKCLn/?igshid=YmMyMTA2M2Y=",
+    category: "Sağlık",
+  },
 ];
