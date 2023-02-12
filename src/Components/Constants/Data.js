@@ -439,4 +439,14 @@ export const allForms = [
     url: "https://www.flyktninghjelpen.no/",
     category: "Arama Kurtarma, Ulaşım, Barınma, Giyim, Gıda, Sağlık",
   },
+  {
+    description: "White Helmets Suriye Depremzedelerine Deprem Bağış Linki",
+    url: "https://www.whitehelmets.org/en/",
+    category: "Arama Kurtarma, Ulaşım, Barınma, Giyim, Gıda, Sağlık",
+  },
+  {
+    description: "Turkish Philanthropy Funds Deprem Bağış Linki",
+    url: "https://www.tpfund.org/",
+    category: "Arama Kurtarma, Ulaşım, Barınma, Giyim, Gıda, Sağlık",
+  },
 ];
