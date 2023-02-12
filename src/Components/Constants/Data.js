@@ -410,7 +410,7 @@ export const allForms = [
     category: "Sağlık, Arama Kurtarma",
   },
   {
-    description: "Afet Sonraı Karayolu Taşıma Faaliyetlerinde Alınan Geçici Tedbirler",
+    description: "Afet Sonrası Karayolu Taşıma Faaliyetlerinde Alınan Geçici Tedbirler",
     url: "https://www.und.org.tr/medya-detay/duyurular/afet-sonrasi-karayolu-tasima-faaliyetlerinde-alinan-gecici-tedbirler",
     category: "Ulaşım",
   },
@@ -445,7 +445,7 @@ export const allForms = [
     category: "Arama Kurtarma, Ulaşım, Barınma, Giyim, Gıda, Sağlık",
   },
   {
-    description: "Turkish Philanthropy Funds Deprem Bağış Linki",
+    description: "Turkish Philanthropy Fund Depremzedelere Bağış Linki",
     url: "https://www.tpfund.org/",
     category: "Arama Kurtarma, Ulaşım, Barınma, Giyim, Gıda, Sağlık",
   },
