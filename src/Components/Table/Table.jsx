@@ -78,6 +78,7 @@ const Table = () => {
                 <td className={"border px-2 py-1 md:px-4 md:py-2"}>
                   <a
                     href={row.url}
+                    onclick="captureOutboundLink({row.url}); return false;"
                     target="_blank"
                     rel="noreferrer"
                     className="text-blue-600 flex items-center"
