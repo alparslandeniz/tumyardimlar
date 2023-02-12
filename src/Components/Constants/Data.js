@@ -394,4 +394,9 @@ export const allForms = [
     url: "https://forms.gle/qu15eSVdQkzZ1BcG9",
     category: "Genel",
   },
+  {
+    description: "Deprem Bölgesinden Misafir Öğrenci Kabul Eden Özel Okullar",
+    url: "https://www.misafirogrenci.org/",
+    category: "Eğitim",
+  },
 ];
