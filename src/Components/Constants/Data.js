@@ -399,4 +399,44 @@ export const allForms = [
     url: "https://www.misafirogrenci.org/",
     category: "Eğitim",
   },
+  {
+    description: "TEB Tır Eczane ve Konteyner Eczaneler İçin Konum Bilgileri",
+    url: "https://afet.teb.org.tr/html/afet-eczaneleri/",
+    category: "Sağlık",
+  },
+  {
+    description: "Enkazdan Çıkarılan ve Hastaneye Sevk Edilenlerin Listesi",
+    url: "https://depremkayiplari.com/",
+    category: "Sağlık, Arama Kurtarma",
+  },
+  {
+    description: "Afet Sonraı Karayolu Taşıma Faaliyetlerinde Alınan Geçici Tedbirler",
+    url: "https://www.und.org.tr/medya-detay/duyurular/afet-sonrasi-karayolu-tasima-faaliyetlerinde-alinan-gecici-tedbirler",
+    category: "Ulaşım",
+  },
+  {
+    description: "İhtiyaç Noktalarını Gösteren ve Paylaşım Yapılabilen Enkaz Haritası",
+    url: "https://enkazbildirim.org/",
+    category: "Barınma, Arama Kurtarma, Giyim, Gıda, Sağlık",
+  },
+  {
+    description: "İhtiyaç Talebi Oluşturulabilen Afet Lojistik Haritası",
+    url: "https://afetihbar.com/",
+    category: "Barınma, Arama Kurtarma, Giyim, Gıda, Sağlık, Ulaşım",
+  },
+  {
+    description: "Afet Dayanışma Faydalı Linkler",
+    url: "https://bio.site/depremyardim",
+    category: "Barınma, Arama Kurtarma, Giyim, Gıda, Sağlık, Ulaşım",
+  },
+  {
+    description: "Deprem Bölgesindeki Tahliye Noktaları ve Tüm Ücretsiz Seferler",
+    url: "https://www.webtekno.com/deprem-tahliye-noktalari-h132072.html",
+    category: "Ulaşım",
+  },
+  {
+    description: "Norwegian Refugee Council Suriye Depremzedelerine Bağış Yardım Linki",
+    url: "https://www.flyktninghjelpen.no/",
+    category: "Arama Kurtarma, Ulaşım, Barınma, Giyim, Gıda, Sağlık",
+  },
 ];
