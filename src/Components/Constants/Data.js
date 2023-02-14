@@ -465,8 +465,13 @@ export const allForms = [
     category: "Eğitim",
   },
   {
-    description: "Sahra Hastaneleri Listesi",
+    description: "Sahra Eczaneleri Listesi",
     url: "https://www.instagram.com/p/Cofft4rKCLn/?igshid=YmMyMTA2M2Y=",
+    category: "Sağlık",
+  },
+  {
+    description: "Deprem Bölgesinde Hizmet Veren Hastaneler Listesi (Devlet, Sahra, Mobil)",
+    url: "https://docs.google.com/spreadsheets/d/1a785CPjKg0cVND2rl2dGnwb7q_1mPJhwWJ8UODCcttw/edit#gid=0",
     category: "Sağlık",
   },
 ];
