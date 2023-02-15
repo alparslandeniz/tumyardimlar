@@ -316,7 +316,7 @@ export const allForms = [
   },
   {
     description: "Şeflere Gıda Yardımı",
-    url: "https://afetharitasi.org/",
+    url: "https://www.topraktantabaga.com.tr/deprem-bolgesine-gonderilecek-yardimlar",
     category: "Gıda",
   },
   {
@@ -472,6 +472,46 @@ export const allForms = [
   {
     description: "Deprem Bölgesinde Hizmet Veren Hastaneler Listesi (Devlet, Sahra, Mobil)",
     url: "https://docs.google.com/spreadsheets/d/1a785CPjKg0cVND2rl2dGnwb7q_1mPJhwWJ8UODCcttw/edit#gid=0",
+    category: "Sağlık",
+  },
+  {
+    description: "Afet İhtiyaç Haritası",
+    url: "https://ihtiyacharitasi.org/",
+    category: "Barınma, Arama Kurtarma, Giyim, Gıda, Sağlık, Ulaşım",
+  },
+  {
+    description: "E-Nabız Hasta ve Hasta Yakını Bilgilendirme Linki Doğal Afetle İlgili Yakınlarınızın Bilgilerini Sorgulayabilirsiniz",
+    url: "https://enabiz.gov.tr/",
+    category: "Arama Kurtarma, Sağlık",
+  },
+  {
+    description: "Misafirimizsiniz Diyen Ev Sahipleri ile Konaklama İhtiyacı Olan Depremzedeleri Buluşturma Platformu",
+    url: "https://www.missafir.com/",
+    category: "Barınma",
+  },
+  {
+    description: "Depremzedeler İçin Ücretsiz Online Psikolog Hizmeti",
+    url: "https://www.evimdekipsikolog.com/",
+    category: "Sağlık",
+  },
+  {
+    description: "Depremzedelere Ücretsiz Mental Sağlık Desteği",
+    url: "https://kidolog.com/",
+    category: "Sağlık",
+  },
+  {
+    description: "Online Psikolog Terapi Desteği",
+    url: "https://terappin.com/online-psikologlar/kategori/deprem",
+    category: "Sağlık",
+  },
+  {
+    description: "Afet Psikolojik Destek",
+    url: "http://www.afetpsikolojikdestek.com/",
+    category: "Sağlık",
+  },
+  {
+    description: "Depremzedelere yönelik ücretsiz psikososyal destek",
+    url: "https://www.psikologbul.io/",
     category: "Sağlık",
   },
 ];
